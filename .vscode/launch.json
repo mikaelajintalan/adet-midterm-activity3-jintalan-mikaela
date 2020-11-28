@@ -1,5 +1,6 @@
 {
     "configurations": [
+        
         {
             "type": "vscode-edge-devtools.debug",
             "request": "launch",

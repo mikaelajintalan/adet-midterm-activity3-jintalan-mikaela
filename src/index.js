@@ -1,14 +1,12 @@
-class template extends React.Component {
-    render() {
-      return (
-        <div>
-           BSCS-31E1{this.props.name}
-        </div>
-      );
-    }
-  }
-  
-  ReactDOM.render(
-    <HelloMessage name="Mikaela L. Jintalan" />,
-    document.getElementById('hello-example')
-  );
+import React from'react';
+import ReactDOM from 'react-dom';
+import App from  './App';
+import './index.css';
+
+// import 'bootstrap/dist/css/bootstrap.css';
+// import 'bootstrap/dist/css/bootstrap-theme.css';
+
+ReactDOM.render(
+  <App />,
+  document.getElementById('root')
+  )
